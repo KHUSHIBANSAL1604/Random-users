@@ -7,7 +7,7 @@ $(document).ready(function() {
  }
 });
 function fetchUsers() {
- $.getJSON('https://randomuser.me/api/?results=6', function(response) {
+ $.getJSON('https://randomuser.me/api/?results=10', function(response) {
      const users = response.results;
      let userGrid = '';
 
